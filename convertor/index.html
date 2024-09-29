@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h1>Currency Converter</h1>
+
+            <form>
+
+                <div class="amount">
+                    <p>Enter the amount</p>
+                    <input value="100" type="text">
+                </div>
+
+                <div class="dropdown">
+
+                    <div class="from">
+                        <p>From</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                            <select name="from">
+                            </select>
+                        </div>
+                    </div>
+
+                    <br><br>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <br><br>
+
+                    <div class="to">
+                        <p>To</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                            <select name="to">
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="msg">1 USD = 80 INR</div>
+                <button>Get Exchange value</button>
+            </form>
+        </div>
+    </body>
+    <script src="tanish.js"></script>
+</html>
